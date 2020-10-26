@@ -1,0 +1,8 @@
+$primary: #3AC4FA;
+$white: #ffffff;
+$black: #000000;
+@mixin media($point) {
+	@media screen and (max-width: $point) {
+		@content;
+	}
+}
