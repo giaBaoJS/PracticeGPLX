@@ -1,0 +1,55 @@
+.wrapper-bienbao {
+  @include media(540px) {
+    .list-cato {
+      .tablist {
+        display: flex;
+        overflow: scroll;
+        color: $white;
+        background-color: $primary;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        li {
+          padding: 10px 15px;
+          white-space: nowrap;
+          &.active {
+            border-bottom: 2px solid $white;
+          }
+        }
+      }
+    }
+    .list-bienbao {
+      .items {
+        padding: 10px 0;
+        border-bottom: 1px solid #f1f1f1;
+        .container-fluid {
+          width: 100%;
+          padding: 0 15px;
+          .row {
+            margin: 0 -5px;
+            .col {
+              padding: 0 5px;
+            }
+            .col-4 {
+              width: calc(100% / 12 * 4);
+            }
+            .col-8 {
+              width: calc(100% / 12 * 8);
+            }
+          }
+        }
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .title {
+          margin-bottom: 5px;
+        }
+        .describe {
+          display: none;
+          white-space: pre;
+        }
+      }
+    }
+  }
+}
