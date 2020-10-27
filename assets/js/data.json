@@ -1,0 +1,79 @@
+{
+  "quest": [
+    {
+      "title": "Khái niệm và quy tắc",
+      "description": " Câu khái niệm 'Phương tiện giao thông cơ giới đường bộ' chọn 'Kể cả xe máy điện'. <br/>Câu khái niệm 'Phương tiện giao thông thô sơ đường độ'chọn 'Kể cả xe đạp máy'. <br/>Câu khái niệm 'Người điều khiển giao thông' là 'Cảnh sát giao thông'. <br/>Câu khái niệm 'Phần đường xe chạy' chọn câu không có chữ 'An toàn giao thông'. <br/> Câu khái niệm 'Làn đường' chọn câu có chữ 'An toàn giao thông'. <br/> Các câu 'Đổ xe: không có giới hạn về thời gian và Dừng xe có giới hạn thời gian' chọn câu số 2. <br/> Về nồng độ cồn, trong máu = 50, trong khí thở = 0, 25 hoặc không có gì cả trong máu và khí thở. <br/> Dừng xe, đỗ xe cách lề đường, hè phố không quá 0,25 mét. <br/> Giữ khoảng ‹ cách 5 mét với đường sắt. <br/> Sử dụng giấy phép lái xe giả cấm 05 năm. <br/> Chọn 'Cơ quan quản lý giao thông' đối với các trường hợp Xe quá tải, xe quá khổ và xe vận chuyển hàng nguy hiểm. Chọn 'UBND cấp tỉnh' đối với trường hợp cấm đi, cấm đổ, cấm dừng, đường ngược chiều. <br/> Loại giấy tờ mang theo: Giấy phép lái xe phù hợp với loại xe. <br/> Độ tuổi lấy bằng theo hạng (mỗi hạng cách nhau 3 tuổi): 16: Xe dưới 50cm3; 18: Hạng A, B; 21: Hạng C; 24: Hạng D, FC, 27: Hạng E. Độ tuổi tối đa người lái xe ô tô hạng E: Nam 55 tuổi và nữ 50 tuổi. <br/> Không lái xe liên tục quá 4 giờ. <br/> Gặp câu hỏi về hạng FE thì chọn Câu 1, hạng FC thì chọn Câu 2. <br/> Tốc độ giới hạn của xe: Bên ngoài khu dân cư 80km/h < 3,5 tấn, 70km/h > 3,5 tấn Tốc độ của xe ô tô trên đường cao tốc, bạn lấy tốc độ (lớn nhất) trong câu hỏi rồi trừ cho 30 thì sẽ ra đáp án đúng."
+    },
+    {
+      "title": "Nghiệp vụ vận tải",
+      "description": "Hàng siêu trường, siêu trọng không thể tháo rồi. <br/> Xe quá tải trọng có tải trọng trục xe vượt quá năng lực chịu tải của mặt đường. <br/> Hàng nguy hiểm: an ninh quốc gia và vận chuyển phải có giấy phép. <br/> Xe quá khổ, quá tải: xin phép cơ quan quản lý giao thông. <br/> Vận chuyển động sống: bảo vệ môi trường và chăm sóc. <br/> Xe vệ sinh môi trường: che phủ kín và thời gian phù hợp."
+    },
+    {
+      "title": "Kỹ thuật lái xe'",
+      "description": "Lùi xe có số tự động: Đạp phanh chân hết hành trình. <br/> Quay đầu xe: Chọn đầu nguy hiểm đuổi an toàn. <br/>"
+    },
+    {
+      "title": "Cấu tạo và sửa chữa",
+      "description": "  Niên hạn sử dụng xe ô tô tải = 25 năm, xe ô tô trên 9 chổ= 20 năm. <br/>Còi của xe ô tô, không lớn hơn 115dB. <br/>Điều khiển xe tăng số câu 1, điều khiển xe giảm số câu 2(tăng 1 giảm 2) <br/> Yêu cầu của kính chắn gió, chọn 'Loại kính an toàn'.<br/> Mục đích của bảo dưỡng xe để giữ hình thức bên ngoài. Xăng không vào được buồng phao của bộ chế hòa khí do tắc bầu lọc xăng. <br/> Khắc phục gíclơ bằng không khí nén. <br/> Động cơ điezen không nổ không có tia lửa điện (chọn câu không có đoạn 'không có tia lửa điện').<br/> Điều chỉnh đánh lửa 'sớm sang muộn' chọn 'cùng chiều' [đáp án 1], 'muộn sang sớm' chọn 'ngược chiều' [đáp án 2] (sớm 1 muộn 2 hoặc sớm cùng muộn ngược). <br/>Thử phanh xe ôtô 6m. <br/>Động cơ 2 kì thực hiện 2 hành trình, 4 kì thực hiện 4 hành trình. <br/> Động cơ đốt trong có thứ tự hút, nén, nổ, xả. <br/>Hộp số đảm bảo cho ô tô chuyển động lùi. <br/>Hệ thống lái dùng để thay đổi hướng chuyển động. <br/>Công dụng của hệ thống lái: chọn câu nào không có chữ mô men. <br/>Công dụng hệ thống truyền lực: truyền. mô mem. <br/>Công dụng của ly hợp: truyền hoặc ngắt truyền động. <br/>Hệ thống phanh giữ cho ô tô đứng yên trên dốc."
+    },
+    {
+      "title": "Hệ thống biển báo",
+      "description": "Đối với các câu có biển báo hiệu lệnh được đặt trước ngã ba, ngã tư. Chọn câu 1 nếu câu hỏi 1 dòng, câu 3 nếu câu hỏi 2 dòng.<br/> Biểnbáo cấm máy kéo thì không cấm ô to tải và ngược lại.<br/> Biển báo cấm rẽ trái thì cấm quay đầu và biển cấm quay đầu thì không cấm rẽ trái"
+    },
+    {
+      "title": "Sa hình",
+      "description": "Đối với câu hỏi liên quan đến việc điều khiển của CSGT, CSGT giơ tay thẳng lên thì các loại xe phải đứng lại đưa 1 hoặc 2 tay giang ngang thì xe trước và đằng sau phải đứng lại.</br> Đường giao nhau có vòng xuyến nhường bên trái, không có vòng xuyến nhường bên phải.</br>  Thấy xuất hiện 'Công an' thì chọn câu số 3.</br>  Xe nào đã vào ngã tư thì xe đó có quyền ưu tiên đi trước cao nhất.</br>  Tiếp đó đến các xe ưu tiên. Trong các xe ưu tiên thì xe cứu hỏa có ưu tiên xe quân sự, xe công an, xe cứu thương.</br>  Tiếp đó nếu cùng là xe ưu tiên hoặc cùng là xe không ưu tiên thì xét đến đường ưu tiên, tức là xe nào năm trên đường ưu tiên thì có quyền đi trước (Xem biển báo hoặc tín hiệu đèn). <br/> Xe nào không vướng xe khác ở bên phải có quyền đi trước Thứ tự ưu tiên theo: xe rẽ phải -> xe đi thẳng -> xe re trái."
+    }
+  ],
+  "practice": [
+    {
+      "title": "Giới thiệu",
+      "description": " Thực hiện 11 bài tập lái xe trong sa hình là thể hiện một hành trình công tác rút gọn, nó giống như bạn thực hiện 1 chuyến đi từ nhà đến Tp.Đà Lạt rồi quay về. Bạn sẽ trải qua những chặng đường khác nhau; xuất phát, lái xe đường bằng, suốt hành trình bạn phải lái xe qua đường giao nhau, đường dốc và phải xử lí những tình huống nguy hiểm, bạn sẽ vui vẻ mỉm cười sau khi kết thúc chuyến hành trình."
+    },
+    {
+      "title": "Bài 1: Bài thi xuất phát",
+      "description": "Các yêu cầu bài thi: <br/><br/> 1. Thắt dây an toàn trước khi xuất phát ( nếu không thắt dây an toan sẽ bị trừ 5 điểm ). <br/> 2. Khởi hành nhẹ nhàng, xe không bị run giật trong khoảng thời gian 20 giây. <br/> 3. Bật đèn xi nhan trái trước khi xuất phát ( nếu không bật xi nhan trái bị trừ 5 điểm ). <br/> 4. Tắt xi nhan trái sau vạch xuất phát 5 mét ( không tắt xi nhan trái bị trừ 5 điểm ). <br/> 5. Giữ động cơ hoạt động liên tục ( trừ 5 điểm cho mỗi lần xe bị chết máy ). <br/> 6. Giữ tốc độ động cơ ( vòng tua ) không quá 4000 vòng/phút. <br/> 7. Giữ tốc độ xe chạy không quá 24 km/h đối với hạng B và D. Tốc độ không quá 20 km/h đối với hạng C và E. <br/> 8. Lái xe an toàn theo quy tắc giao thông. <br/> <br/><br/> Hướng dẫn cách thi: <br/><br/> Trước lúc xuất phát, khi mới lên xe, bạn cần kiểm tra lại ghế ngồi xem có phù hợp với người không, nếu cần thiết thì chỉnh xa vành tay lái hoặc gần lại để đạp hết được côn, phanh, ga. Kiểm tra hai gương sao cho nhìn thấy được điểm bánh xe sau tiếp xúc với mặt đường. <br/> Khi có lệnh xuất phát, bạn vào số 1, nhả côn từ từ để xe đi. Khi đèn xanh trong xe tắt hoặc khi qua. vạch xuất phát rồi thì tắt xi-nhan. Khi xe đã đi, bạn có thể nhả hết côn ra cho xe tự bò, không cần đặt chân vào bàn đạp ga. Nhưng theo tôi, bạn không nên nhả hết mà cứ đỡ côn ở mức một nửa để xe đi chậm, chuẩn bị vào bài 2. <br/>"
+    },
+    {
+      "title": "Bài 2: Bài thi dừng xe và nhường đường cho người đi bộ",
+      "description": "Các yêu cầu bài thi: <br/><br/> 1. Thắt dây an toàn trước khi xuất phát ( nếu không thắt dây an toan sẽ bị trừ 5 điểm ). <br/> 2. Khởi hành nhẹ nhàng, xe không bị run giật trong khoảng thời gian 20 giây. <br/> 3. Bật đèn xi nhan trái trước khi xuất phát ( nếu không bật xi nhan trái bị trừ 5 điểm ). <br/> 4. Tắt xi nhan trái sau vạch xuất phát 5 mét ( không tắt xi nhan trái bị trừ 5 điểm ). <br/> 5. Giữ động cơ hoạt động liên tục ( trừ 5 điểm cho mỗi lần xe bị chết máy ). <br/> 6. Giữ tốc độ động cơ ( vòng tua ) không quá 4000 vòng/phút. <br/> 7. Giữ tốc độ xe chạy không quá 24 km/h đối với hạng B và D. Tốc độ không quá 20 km/h đối với hạng C và E. <br/> 8. Lái xe an toàn theo quy tắc giao thông. <br/> <br/><br/> Hướng dẫn cách thi: <br/><br/> Trước lúc xuất phát, khi mới lên xe, bạn cần kiểm tra lại ghế ngồi xem có phù hợp với người không, nếu cần thiết thì chỉnh xa vành tay lái hoặc gần lại để đạp hết được côn, phanh, ga. Kiểm tra hai gương sao cho nhìn thấy được điểm bánh xe sau tiếp xúc với mặt đường. <br/> Khi có lệnh xuất phát, bạn vào số 1, nhả côn từ từ để xe đi. Khi đèn xanh trong xe tắt hoặc khi qua. vạch xuất phát rồi thì tắt xi-nhan. Khi xe đã đi, bạn có thể nhả hết côn ra cho xe tự bò, không cần đặt chân vào bàn đạp ga. Nhưng theo tôi, bạn không nên nhả hết mà cứ đỡ côn ở mức một nửa để xe đi chậm, chuẩn bị vào bài 2. <br/>"
+    },
+    {
+      "title": "Bài 3: Bài thi dừng xe và khởi hàng lên dốc",
+      "description": "Trong tất cả các phần thi, thì phần thi dừng xe và khởi hành ngang dốc được học viên đánh giá là khó khăn nhất. Bởi vì, chỉ cần dừng xe quá điểm dừng hay bị tụt dốc đều bị truất quyền thi sát hạch. Một số kinh nghiệm đúc rút từ chính học viên thi bằng lái xe, và của các giáo viên gợi ý. </br> Dừng non một chút trước điểm cần dừng, chấp nhận mất 5 điểm. Sau khi xe đã đè qua vạch vàng ( vạch bắt đầu vào bài thi ) dưới mặt đường, đếm nhanh 1,2,3 đạp hết côn và phanh dừng xe, không để xe  đè quá vạch màu trắng quy định dưới mặt đường. Sau đó thực hiện các thao tác côn ga để cho xe vượt qua khỏi dốc. Có 2 phương pháp thực hiện cho xe lên khỏi dốc."
+    },
+    {
+      "title": "Bài 4: Bài thi qua vệt bánh xe và đường vuông góc",
+      "description": "Điều khiển xe đi thẳng từ xa vào vệt bánh xe, cho toàn bộ bánh xe phía bên phải đi lọt qua vệt bánh xe. Bài này hầu hết các giáo viên hướng dẫn xe chip gọi tắt là bài hàng đinh. .<br/>Ngay sau khi vượt qua dốc đề - pa,  tiến và bài thi qua vệt bánh xe, các  bạn nhìn dưới mặt đường thấy xuất hiện vạch màu vàng cắt ngang mặt đường ( vạch bắt đầu nhận bài thi ) . Lúc này chúng ta đạp bớt chân côn vào cho xe đi chậm lại để định hình điểm mốc để căn xe, thường các sân thi đều có điểm mốc trên vỉa ba toa, hoặc nằm dưới mặt đường để học viên lấy đó làm chuẩn từ vô lăng và người mình.<br/> Khi xe đã qua vệt bánh xe, cho xe chạy với tốc độ ổn định, đồng thời chú ý mở lái sang bên phải cho xe tiến sát vào vạch giới hạn bên phải ( phần này chính là nguyên tắc tiến bám bụng, lùi bám lưng mà học viên phải nắm được). Sau đó đánh hết lái sang bên trái cho xe qua đoạn vuông góc thứ nhất, tiếp tục cho xe tiến sát sang  vạch giới hạn bên trái và nhanh chóng đánh hết lái sang bên phải cho xe đi qua đoạn vuông góc thứ 2."
+    },
+    {
+      "title": "Bài 5: Qua ngã tư có tín hiệu đèn giao thông.",
+      "description": "Trong toàn bộ bài thi, có 4 lần bạn phải đi qua ngã tư ở giữa sân thi, hai lần đi thẳng, một lần rẽ trái và một lần rẽ phải. Cũng giống như ở ngoài đường, tại ngã tư này có đèn tín hiệu và bạn chỉ được cho xe qua ngã tư khi có đèn xanh. Nếu bạn cho xe qua ngã tư khi đang đèn đỏ sẽ bị trừ 10 điểm. Nếu khi xe vừa đến ngã tư mà có đèn xanh thì bạn có thể qua luôn, còn nếu đèn đỏ thì phải dừng lại trước vạch trắng, nếu vượt quá vạch bị trừ 5 điểm. Khi qua ngã tư có rẽ trái và rẽ phải thì cần bật xi-nhan tương ứng, nếu quên không bật xi nhan trừ 5 điểm. Hiện tại, hầu như tất cả các sân thi ngoài vạch trắng còn có vạch vàng ở phía dưới ( vạch bắt đầu nhận bài ). Vạch vàng này giúp học viên trốn bằng cách đỗ dưới vạch vàng, tức là xa ngã tư hơn, nhưng như vậy khi có đèn xanh thì phải nhanh chóng khởi hành đi tiếp, nếu không rất có thể đèn đã chuyển sang đỏ khi bạn gần vào đến ngã tư – trừ điểm.<br/> Mẹo bài phần thi này, thường được các giáo viên dạy xe chip truyền lại cho học viên. Khi có đèn đỏ, vạch vàng dưới mặt đường khuất tầm mắt trước đầu xe thi dừng lại, khi đèn đỏ còn 3 giây nhả côn từ từ cho xe di chuyển, có tín hiệu 'bính bong' thì ga nhẹ lên để xe vượt qua ngã tư. Đây là phần không hề khó, nhưng sẽ mất rất nhiều điểm nếu không tập trung."
+    },
+    {
+      "title": "Bài 6: Qua đường vòng quanh co.",
+      "description": "Khi xe gần đến đường vòng quanh co phải nhanh chóng giảm tốc độ, bài thi này thực hiện theo câu nói của các lái xe 'Tiến bám bụng, lùi bám lưng', ý nghĩa là khi xe vào đường cua (ôm cua) nên căn theo phía đường cong dài hơn, muốn cua sang trái để hở thân trái ra nhiều hơn, đồng nghĩa thân xe bên phải sẽ bám sát vỉa ba toa hơn.</br> Ngược lại, khi cua xe sang phải để hở rộng thân phải ra nhiều hơn, đồng nghĩa thân xe sẽ bám sát vỉa ba toa bên trái hơn. Như vậy, khi vào đường chữ S, bạn cho xe bám sát về bên phải, đánh lái sang trái cho xe đi nửa vòng cua đầu tiên, sau đó lại bám sang lề đường bên trái, trả lái và đánh lái sang phải cho xe qua nốt nửa vòng cua còn lại."
+    },
+    {
+      "title": "Bài 7: Ghép xe dọc vào nơi đỗ.",
+      "description": "Trước tiên cần điều chỉnh gương trái sao cho thấy được bánh xe sau. Nhiều người rất lo sợ vì không biết nên lúc nào thì nên đánh xe sang trái để vào đúng cửa chuồng. Nếu điều chỉnh gương đúng thì bạn có thể quan sát bánh sau bên trái xe để thực hiện đánh xe vào cửa chuồng cho tốt.<br/><br/> Chú ý tình huống khẩn cấp có thể xảy ra: đạp phanh bấm nút dừng khẩn cấp trên xe"
+    },
+    {
+      "title": "Bài 8: Ghép xe ngang vào nơi đỗ.",
+      "description": "Thực hiện bài thi sát hạch ghép xe ngang vào nơi đỗ là lùi xe ô tô vào vị trí đỗ mà có vật cản ở 2 đầu và 1 mặt bên. Đối với những người đã lái xe quen rồi thì thực hiện bài thi này sẽ khá đơn giản và không quá khó. </br> Tuy nhiên với các học viên mới học lái xe ô tô thì khi thực hiện bài thi này sẽ lo lắng và chưa thạo tay lái. Để bạn có thể vượt qua bài thi ghép xe ngang vào nơi đỗ một cách dễ dàng, trung tâm dạy lái xe Thái Việt sẽ đưa ra một số mẹo nhỏ mà bạn có thể áp dụng khi thi. </br> Khi bạn thực hiện bước đánh lái sang trái để lùi xe vào cửa chuồng thì hãy tưởng tượng vẽ ra một đường thẳng nối các mép bánh xe ngoài của cả 2 chiếc xe cản trước và sau. Khi quay đuôi xe và chuyển động lùi đến khi bánh xe sau phía trong chạm vào đường thẳng này thì dừng lại. </br>"
+    },
+    {
+      "title": "Bài 9: Tạm dừng ở chỗ có đường sắt chạy qua.",
+      "description": "Ở bài thi này cần có yêu cầu dừng xe trước vạch trắng và vạch dành cho người đi bộ là được. Nếu đỗ quá vạch trắng hoặc quá xa vạch trắng đều bị trừ điểm thi. Nhằm giúp học viên vượt qua bài thi dễ dàng, các sân thi thường đánh dấu sẵn vạch đỏ trên vỉa ba-toa hoặc ngay trên mặt đường.<br/> Khi bạn lái xe để ý thấy vạch đỏ trên vỉa ba-toa ngang với vai bạn rồi thì dừng xe lại. Còn đối với vạch đỏ kẻ trên mặt sân thi thì hãy nhìn qua gương thấy bánh xe sau cách vạch đỏ khoảng 20cm thì dừng lại. .<br/> Kết luận: Ở bài thi số 6 trong 11 bài thi sa hình sát hạch bằng lái ô tô bạn hãy thoải mái tinh thần và thực hiện kỹ các mẹo trên chắc chắn sẽ đạt được điểm cao. .<br/>"
+    },
+    {
+      "title": "Bài 10: Thay đổi số trên đường thẳng.",
+      "description": "Ngay khi xe bắt đầu vào biển báo ' Bắt đầu tăng số, tăng tốc độ' ( chíp lúc này sẽ phát ra tín hiệu bính boong ). Sau đó mới nhả chân côn ra, và nhấn ga để đạt được tốc độ từ 24km/h trở lên trong khoảng giữa 2 biển ' bắt đầu tăng số, tăng tốc độ' và biển tối thiểu ' 20km/h: màu xanh. Sau khi đã thực hiện xong, nhả chân ga và giảm tốc độ xuống dưới 20km/h  trước biển giới hạn tối đa '20km/h' nền trắng viền đỏ, và đảo về số thấp hơn tùy theo các hạng lái xe của học viên"
+    },
+    {
+      "title": "Bài 11: Kết thúc của bài 11 bài thực hành sa hình",
+      "description": "Hãy bật đèn xi nhan phải khi xe qua vạch kết thúc <br/> Lái xe đi qua vạch kết thúc <br/> Giữ động cơ liên tục hoạt động <br/> Đảm bảo chạy xe với tốc độ động cơ không quá 4000 vòng/phút <br/> Lái xe với tốc độ không vượt quá 24 km/h đối với hạng B, D và không quá 20 km/h đối với hạng C,E. <br/>"
+    }
+  ]
+}
+

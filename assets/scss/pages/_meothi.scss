@@ -1,0 +1,19 @@
+.wrapper-meothi {
+  @include media(540px) {
+    .list-cato {
+      .tablist {
+        display: flex;
+        color: $white;
+        background-color: $primary;
+        li {
+          padding: 10px 15px;
+          width: calc(100% / 2);
+          text-align: center;
+          &.active {
+            border-bottom: 2px solid $white;
+          }
+        }
+      }
+    }
+  }
+}
