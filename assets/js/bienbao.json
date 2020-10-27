@@ -182,6 +182,11 @@
   ],
   "biennguyhiem": [
     {
+      "image": "./assets/images/bienbao/biennguyhiem1.png",
+      "title": "Biển số 201a 'chỗ ngoặt nguy hiểm vòng bên trai'",
+      "description": "Báo trước sắp đến một chỗ ngoặt nguy hiểm phía bên trái"
+    },
+    {
       "image": "./assets/images/bienbao/biennguyhiem2.png",
       "title": "Biển số 201b 'chỗ ngoặt nguy hiểm vòng bên phải'",
       "description": "Báo trước sắp đến một chỗ ngoặt nguy hiểm phía bên phải"
@@ -202,9 +207,29 @@
       "description": "Báo trước sắp đến một đoạn đường bị hẹp đột ngột phía bên trái"
     },
     {
-      "image": "./assets/images/bienbao/biennguyhiem1.png",
-      "title": "Biển số 201a 'chỗ ngoặt nguy hiểm vòng bên trai'",
-      "description": "Báo trước sắp đến một chỗ ngoặt nguy hiểm phía bên trái"
+      "image": "./assets/images/bienbao/biennguyhiem6.png",
+      "title": "Biển số 203b 'Đường bị hẹp bên trái'",
+      "description": "Báo trước sắp đến một đoạn đường bị hẹp đột ngột phía bên trái"
+    },
+    {
+      "image": "./assets/images/bienbao/biennguyhiem7.png",
+      "title": "Biển số 207a 'Giao nhau với đường không ưu tiên'",
+      "description": "Báo trước sắp đến nơi giao nhau với đường không ưu tiên"
+    },
+    {
+      "image": "./assets/images/bienbao/biennguyhiem8.png",
+      "title": "Biển số 230 'Gia súc'",
+      "description": "Báo trước gần tới đoạn đường thường có gia súc thả rông hoặc lùa qua ngang đường, đường ở vùng đồng cỏ của nông trường chăn nuôi, vùng thảo nguyên... Người lái xe có trách nhiệm đi chậm, quan sát và dừng lại bảo đảm cho gia súc có thể qua đường không bị nguy hiểm."
+    },
+    {
+      "image": "./assets/images/bienbao/biennguyhiem9.png",
+      "title": "Biển báo 240 'Đường hầm',",
+      "description": "Nhắc lái xe chú ý chuẩn bị đi vào hầm đường bộ. Biển đặt ở bên phải chiều đi trước khi vào hầm."
+    },
+    {
+      "image": "./assets/images/bienbao/biennguyhiem10.png",
+      "title": "Biển số 244 'Đoạn đường hay xảy ra tai nạn'",
+      "description": "Cảnh báo nguy hiểm đoạn đường phía trước thường xảy ra tai nạn để lái xe cần đặc biệt chú ý"
     }
   ],
   "bienphu": [
