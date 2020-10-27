@@ -74,27 +74,5 @@
       "title": "Bài 11: Kết thúc của bài 11 bài thực hành sa hình",
       "description": "Khi xe gần đến đường vòng quanh co phải nhanh chóng giảm tốc độ, bài thi này thực hiện theo câu nói của các lái xe 'Tiến bám bụng, lùi bám lưng', ý nghĩa là khi xe vào đường cua (ôm cua) nên căn theo phía đường cong dài hơn, muốn cua sang trái để hở thân trái ra nhiều hơn, đồng nghĩa thân xe bên phải sẽ bám sát vỉa ba toa hơn.</br> Ngược lại, khi cua xe sang phải để hở rộng thân phải ra nhiều hơn, đồng nghĩa thân xe sẽ bám sát vỉa ba toa bên trái hơn. Như vậy, khi vào đường chữ S, bạn cho xe bám sát về bên phải, đánh lái sang trái cho xe đi nửa vòng cua đầu tiên, sau đó lại bám sang lề đường bên trái, trả lái và đánh lái sang phải cho xe qua nốt nửa vòng cua còn lại."
     }
-  ],
-  "bienbao": [
-    {
-      "image": "../assets/images/bienbao1.png",
-      "title": "Biển số P.124a 'Cấm quay đầu xe'",
-      "description":"Để báo cấm các loại xe quay đầu (theo kiểu chữ U). Chiều mũi tên phù hợp với chiều cấm quay đầu xe. Biển số P.124a có hiệu lực cấm các loại xe (cơ giới và thô sơ) trừ các xe được ưu tiên theo quy định. Biển không có giá trị cấm rẽ trái để đi sang hướng đường khác."
-    },
-    {
-      "image": "../assets/images/bienbao1.png",
-      "title": "Biển số P.124a 'Cấm quay đầu xe'",
-      "description":"Để báo cấm các loại xe quay đầu (theo kiểu chữ U). Chiều mũi tên phù hợp với chiều cấm quay đầu xe. Biển số P.124a có hiệu lực cấm các loại xe (cơ giới và thô sơ) trừ các xe được ưu tiên theo quy định. Biển không có giá trị cấm rẽ trái để đi sang hướng đường khác."
-    },
-    {
-      "image": "../assets/images/bienbao1.png",
-      "title": "Biển số P.124a 'Cấm quay đầu xe'",
-      "description":"Để báo cấm các loại xe quay đầu (theo kiểu chữ U). Chiều mũi tên phù hợp với chiều cấm quay đầu xe. Biển số P.124a có hiệu lực cấm các loại xe (cơ giới và thô sơ) trừ các xe được ưu tiên theo quy định. Biển không có giá trị cấm rẽ trái để đi sang hướng đường khác."
-    },
-    {
-      "image": "../assets/images/bienbao1.png",
-      "title": "Biển số P.124a 'Cấm quay đầu xe'",
-      "description":"Để báo cấm các loại xe quay đầu (theo kiểu chữ U). Chiều mũi tên phù hợp với chiều cấm quay đầu xe. Biển số P.124a có hiệu lực cấm các loại xe (cơ giới và thô sơ) trừ các xe được ưu tiên theo quy định. Biển không có giá trị cấm rẽ trái để đi sang hướng đường khác."
-    }
   ]
 }

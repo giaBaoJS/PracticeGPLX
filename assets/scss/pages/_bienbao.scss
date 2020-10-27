@@ -1,7 +1,7 @@
 .wrapper-bienbao {
   @include media(540px) {
-    .list-cato {
-      .tablist {
+    .list-cato-b {
+      .tablist-b {
         display: flex;
         overflow: scroll;
         color: $white;
@@ -19,6 +19,12 @@
       }
     }
     .list-bienbao {
+      .tab{
+        display: none;
+        &.active{
+          display: block;
+        }
+      }
       .items {
         padding: 10px 0;
         border-bottom: 1px solid #f1f1f1;
@@ -27,6 +33,9 @@
           padding: 0 15px;
           .row {
             margin: 0 -5px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #f1f1f1;
             .col {
               padding: 0 5px;
             }
