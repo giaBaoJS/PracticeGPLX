@@ -752,7 +752,7 @@ img {
   }
   main .total-answer .all-number .container .row .col-md-2 a div .tick-true {
     position: absolute;
-    display: none;
+    display: block;
     padding: 5px 5px;
     background: #3cb53c;
     top: -2px;
@@ -765,7 +765,7 @@ img {
   }
   main .total-answer .all-number .container .row .col-md-2 a div .tick-false {
     position: absolute;
-    display: none;
+    display: block;
     padding: 5px 7px;
     background: #d80808;
     top: -2px;
@@ -823,7 +823,7 @@ img {
     padding: 10px 0px;
   }
   main .answer_for_question .title-aq span {
-    margin-right: 35px;
+    margin-right: 25px;
   }
   main .answer_for_question .title-aq span i {
     font-size: 15px;

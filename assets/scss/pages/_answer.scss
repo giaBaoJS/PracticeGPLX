@@ -188,7 +188,7 @@ $theory_title_desc: 10px;
                                     align-items: center;
                                     .tick-true {
                                         position: absolute;
-                                        display: none;
+                                        display: block;
                                         padding: 5px 5px;
                                         background: $icon_theory;
                                         top: -2px;
@@ -202,7 +202,7 @@ $theory_title_desc: 10px;
                                     }
                                     .tick-false {
                                         position: absolute;
-                                        display: none;
+                                        display: block;
                                         padding: 5px 7px;
                                         background: rgb(216, 8, 8);
                                         top: -2px;
@@ -265,7 +265,7 @@ $theory_title_desc: 10px;
                 align-items: center;
                 padding: 10px 0px;
                 span {
-                    margin-right: 35px;
+                    margin-right: 25px;
                     i {
                         font-size: 15px;
                         color: #3cb53c;
