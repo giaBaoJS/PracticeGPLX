@@ -229,7 +229,7 @@ img {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 8px solid #3AC4FA;
+    border-top: 8px solid #3ac4fa;
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
@@ -252,6 +252,17 @@ img {
   }
 }
 
+@media screen and (max-width: 540px) {
+  header.answer-menu a i {
+    color: white;
+    font-size: 24px;
+  }
+  header.answer-menu .h-numb {
+    margin-left: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -277,7 +288,7 @@ img {
 
 @media screen and (max-width: 540px) {
   .menu {
-    background: #3AC4FA;
+    background: #3ac4fa;
     padding: 15px 10px;
     color: white;
     background: #3AC4FA;
@@ -518,7 +529,7 @@ img {
     display: flex;
     overflow: scroll;
     color: #ffffff;
-    background-color: #3AC4FA;
+    background-color: #38b7e8;
   }
   .wrapper-bienbao .list-cato-b .tablist-b::-webkit-scrollbar {
     display: none;
@@ -576,7 +587,7 @@ img {
   .wrapper-meothi .list-cato .tablist {
     display: flex;
     color: #ffffff;
-    background-color: #3AC4FA;
+    background-color: #38b7e8;
   }
   .wrapper-meothi .list-cato .tablist li {
     padding: 10px 15px;
@@ -606,16 +617,6 @@ img {
 }
 
 @media screen and (max-width: 540px) {
-  header.answer-menu a i {
-    color: white;
-    font-size: 24px;
-  }
-  header.answer-menu .h-numb {
-    margin-left: auto;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-
   main .wrap-answer-content .container {
     padding: 15px 10px;
   }
@@ -682,7 +683,7 @@ img {
     transform: rotate(180deg);
   }
   main .total-answer .bar-number {
-    background: #3AC4FA;
+    background: #3ac4fa;
   }
   main .total-answer .bar-number .container .flex-bar {
     color: white;

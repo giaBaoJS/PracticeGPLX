@@ -1,120 +1,134 @@
 $theory_title_desc: 10px;
 @include media(540px) {
-    main {
-        .wrap-theory-content {
-            min-height: 100%;
-            background: #efefef;
-            .container {
+  main {
+    .wrap-theory-content {
+      min-height: 100%;
+      background: #efefef;
+      .container {
+        position: relative;
+        padding: $pd-all-15 $pd-lr-10;
+        .each-cate {
+          background: white;
+          margin-bottom: $pd-lr-10;
+          border-radius: 6px;
+          border-bottom: 1px solid #b5b5b5;
+          .row {
+            margin: 0px;
+            position: relative;
+            .col-md-2 {
+              position: relative;
+              .left-icon {
                 position: relative;
-                padding: $pd-all-15 $pd-lr-10;
-                .each-cate {
-                    background: white;
-                    margin-bottom: $pd-lr-10;
-                    border-radius: 6px;
-                    border-bottom: 1px solid #b5b5b5;
-                    .row {
-                        margin: 0px;
-                        position: relative;
-                        .col-md-2 {
-                            position: relative;
-                            .left-icon {
-                                position: relative;
-                                .box-icon {
-                                    width: 100%;
-                                    height: 100%;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    i {
-                                        position: relative;
-                                        font-size: 44px;
-                                        color: $icon_theory;
-                                    }
-                                }
-                            }
-                        }
-                        .col-md-10 {
-                            .right-content {
-                                padding: $pd-lr-10 $pd-all-15;
-                                .title-content {
-                                    margin-bottom: $theory_title_desc;
-                                    font-size: 17px;
-                                    text-transform: uppercase;
-                                    p {
-                                        position: relative;
-                                    }
-                                }
-                                .desc-content {
-                                    font-size: $font-12;
-                                    color: $desc_color_gray;
-                                    margin-bottom: $theory_title_desc;
-                                    p {
-                                        span {
-                                            color: $icon_theory;
-                                            font-weight: bold;
-                                        }
-                                    }
-                                }
-                                .progress-content {
-                                    display: flex;
-                                    align-items: center;
-                                    .meter {
-                                        height: 1px;
-                                        width: 80%;
-                                        position: relative;
-                                        background: #c3c3c3;
-                                        -moz-border-radius: 25px;
-                                        -webkit-border-radius: 25px;
-                                        border-radius: 25px;
-                                        padding: 2px;
-                                        box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
-                                        span {
-                                            display: block;
-                                            height: 100%;
-                                            border-top-right-radius: 8px;
-                                            border-bottom-right-radius: 8px;
-                                            border-top-left-radius: 20px;
-                                            border-bottom-left-radius: 20px;
-                                            background-color: rgb(43, 194, 83);
-                                            background-image: linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
-                                            box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
-                                            overflow: hidden;
-                                        }
-                                        span::after {
-                                            content: "";
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
-                                            bottom: 0;
-                                            right: 0;
-                                            background-image: linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-                                            z-index: 1;
-                                            background-size: 50px 50px;
-                                            animation: move 2s linear infinite;
-                                            border-top-right-radius: 8px;
-                                            border-bottom-right-radius: 8px;
-                                            border-top-left-radius: 20px;
-                                            border-bottom-left-radius: 20px;
-                                            overflow: hidden;
-                                        }
-                                    }
-                                    .numb-answer {
-                                        font-size: 14px;
-                                        margin-left: auto;
-                                        color: $desc_color_gray;
-                                        span {
-                                            position: relative;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
+                .box-icon {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  i {
+                    position: relative;
+                    font-size: 44px;
+                    color: $icon_theory;
+                  }
                 }
+              }
             }
+            .col-md-10 {
+              .right-content {
+                padding: $pd-lr-10 $pd-all-15;
+                .title-content {
+                  margin-bottom: $theory_title_desc;
+                  font-size: 17px;
+                  text-transform: uppercase;
+                  p {
+                    position: relative;
+                  }
+                }
+                .desc-content {
+                  font-size: $font-12;
+                  color: $desc_color_gray;
+                  margin-bottom: $theory_title_desc;
+                  p {
+                    span {
+                      color: $icon_theory;
+                      font-weight: bold;
+                    }
+                  }
+                }
+                .progress-content {
+                  display: flex;
+                  align-items: center;
+                  .meter {
+                    height: 1px;
+                    width: 80%;
+                    position: relative;
+                    background: #c3c3c3;
+                    -moz-border-radius: 25px;
+                    -webkit-border-radius: 25px;
+                    border-radius: 25px;
+                    padding: 2px;
+                    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+                    span {
+                      display: block;
+                      height: 100%;
+                      border-top-right-radius: 8px;
+                      border-bottom-right-radius: 8px;
+                      border-top-left-radius: 20px;
+                      border-bottom-left-radius: 20px;
+                      background-color: rgb(43, 194, 83);
+                      background-image: linear-gradient(
+                        center bottom,
+                        rgb(43, 194, 83) 37%,
+                        rgb(84, 240, 84) 69%
+                      );
+                      box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+                        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      overflow: hidden;
+                    }
+                    span::after {
+                      content: "";
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0;
+                      background-image: linear-gradient(
+                        -45deg,
+                        rgba(255, 255, 255, 0.2) 25%,
+                        transparent 25%,
+                        transparent 50%,
+                        rgba(255, 255, 255, 0.2) 50%,
+                        rgba(255, 255, 255, 0.2) 75%,
+                        transparent 75%,
+                        transparent
+                      );
+                      z-index: 1;
+                      background-size: 50px 50px;
+                      animation: move 2s linear infinite;
+                      border-top-right-radius: 8px;
+                      border-bottom-right-radius: 8px;
+                      border-top-left-radius: 20px;
+                      border-bottom-left-radius: 20px;
+                      overflow: hidden;
+                    }
+                  }
+                  .numb-answer {
+                    font-size: 14px;
+                    margin-left: auto;
+                    color: $desc_color_gray;
+                    span {
+                      position: relative;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
+      }
     }
+  }
 }

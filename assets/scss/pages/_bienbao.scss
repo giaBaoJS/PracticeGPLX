@@ -5,7 +5,7 @@
         display: flex;
         overflow: scroll;
         color: $white;
-        background-color: $primary;
+        background-color: $sub-primary;
         &::-webkit-scrollbar {
           display: none;
         }
@@ -19,9 +19,9 @@
       }
     }
     .list-bienbao {
-      .tab{
+      .tab {
         display: none;
-        &.active{
+        &.active {
           display: block;
         }
       }
