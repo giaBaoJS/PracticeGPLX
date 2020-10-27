@@ -1,8 +1,29 @@
 $primary: #3AC4FA;
 $white: #ffffff;
 $black: #000000;
+//-----font size-------
+$font-12: 12px;
+//-----border------
+$border_right: #d6d5d5;
+$border_bottom: #d6d5d5;
+$border_top: #d6d5d5;
+//-----color----
+$icon_theory: #3cb53c;
+$desc_color_gray: #989898;
+//-----10
+$pd-lr-10: 10px;
+$pd-left-10: 10px;
+$pd-right-10: 10px;
+//-----15
+$pd-all-15: 15px;
+$pd-left-15: 15px;
+$pd-right-15: 15px;
+$pd-top-15: 15px;
+$pd-bottom-15: 15px;
+$margin-bottom-15: 15px;
+$margin-top-15: 15px;
 @mixin media($point) {
-	@media screen and (max-width: $point) {
-		@content;
-	}
+    @media screen and (max-width: $point) {
+        @content;
+    }
 }

@@ -1,152 +1,93 @@
-//Scroll to top
-$(window).scroll(function () {
-  if ($(this).scrollTop() >= 500) {
-    $('#return-to-top').fadeIn(300);
-  } else {
-    $('#return-to-top').fadeOut(300);
-  }
-});
-$('#return-to-top').click(function () {
-  $('body,html').animate(
-    {
-      scrollTop: 0,
-    },
-    500
-  );
-});
-
-//Swiper
-$('.swiper-slider').each(function () {
-  let nextButton = $(this).find('.slide-button-next')[0];
-  let prevButton = $(this).find('.slide-button-prev')[0];
-  let pagination = $(this).find('.slide-pagination')[0];
-  var test = new Swiper(this, {
-    direction: 'horizontal',
-    loop: false,
-    slidesPerView: 1,
-    spaceBetween: 10,
-    observer: true,
-    navigation: {
-      nextEl: nextButton,
-      prevEl: prevButton,
+//-----------HOME PAGE------------
+let swiper_home = new Swiper('.slider-home', {
+    autoplay: {
+        delay: 4000,
     },
     pagination: {
-      el: pagination,
-      clickable: true,
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
     },
-    breakpoints: {
-      768: {
-        slidesPerView: 'auto',
-        spaceBetweenSlides: 15,
-      },
-    },
-  });
 });
 
-//Swiper filter
-let listTab = document.querySelectorAll('.tablist');
-
-listTab.forEach(function (tab) {
-  tab.addEventListener('click', function () {
-    $('.tablist').removeClass('active');
-    $(this).addClass('active');
-    let id = tab.getAttribute('data-filter');
-    $('.wrap-slider .tab').removeClass('tab-active');
-    $('.wrap-slider .check' + id).addClass('tab-active');
-  });
-});
-
-var typeRoomSlider = new Swiper('.slider-typeroom', {
-  direction: 'horizontal',
-  loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  observer: true,
-  observeParents: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 1.3,
-    },
-  },
-});
-
-var typeRoomSlider2 = new Swiper('.swiper-container', {
-  direction: 'horizontal',
-  slidesPerView: 4,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-var RoomHome = new Swiper('.swiper-roomsuite', {
-  direction: 'horizontal',
-  slidesPerView: 1,
-  spaceBetween: 30,
-  centeredSlides: true,
-  loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 1.2,
-    },
-  },
-});
-
-//Menu mobile
-$('.hamburger-btn').click(function (e) {
-  e.stopPropagation();
-  $(this).addClass('active');
-  $('.main-menu').addClass('active');
-});
-$('html').click(function () {
-  $('.hamburger-btn').removeClass('active');
-  $('.main-menu').removeClass('active');
+$('.mid-question').click(function() {
+    $('.arrow-slide > i').toggleClass('rotate-numb');
+    $('.total-answer').toggleClass('toggle_Answer');
 });
 
 
-//Tab list Gallery
-$('.list-cato .tab').click(function (e) {
-  $('.list-cato .tab').removeClass('active');
-  $(this).addClass('active');
-  let id = $(this).attr('data-tab');
-  $('.tablist').removeClass('active');
-  $('.' + id).addClass('active');
-});
-//Tab list type Room
-$('.list-type .tab-t').click(function (e) {
-  $('.list-type .tab-t').removeClass('active');
-  $(this).addClass('active');
-  let id = $(this).attr('data-tab');
-  $('.tablist-t').removeClass('active');
-  $('.' + id).addClass('active');
+$(document).ready(function() {
+
+    let Arr_Choice = [];
+    for (let index = 17; index < 100; index++) {
+        Arr_Choice.push({
+            page: index,
+            tick: false,
+        });
+
+    }
+    // console.log(Arr_Choice);
+    localStorage.setItem("data", JSON.stringify(Arr_Choice));
 });
 
-$(document).ready(function () {
-  $('.lightgallery').lightGallery({
-    selector: '.item',
-  });
-});
-//Tab list facilities
-$('.list-type .tab-f').click(function (e) {
-  $('.list-type .tab-f').removeClass('active');
-  $(this).addClass('active');
-  let id = $(this).attr('data-tab');
-  $('.tablist-f').removeClass('active');
-  $('.' + id).addClass('active');
-});
+function AddData() {
+    let data = JSON.parse(localStorage.getItem("data"));
+    if (data.lenght != 0 && data != "" && data != null) {
+        for (let i = 17; i < data.length; i++) {
+            let check = data[i].tick;
+            debugger;
+            //     $('.append-col').append(`<div class="col-md-2">
+            //     <a href="">
+            //       <div>
+            //           ${index}
+            //           <span class="tick-true"><i class="fas fa-check"></i></span>
+            //           <span class="tick-false"><i class="fas fa-times"></i></span>
+            //       </div>
+            //       </a>
+            //   </div>`);
+        }
 
-$(document).ready(function () {
-  $('.lightgallery').lightGallery({
-    selector: '.item',
-  });
-});
+    }
+    debugger;
 
+}
+AddData();
+//--------choice question------
+$(document).on('click', '.each-answer', function() {
+    let flag = $(this).data('tick');
+    $('.content').removeClass('toggle_content_false');
+    $('.stt').removeClass('toggle_Stt_false');
+    $('.stt').removeClass('toggle_Stt_true');
+    $('.content').removeClass('toggle_content_true');
+    $('.ct-true-false > .fas').removeClass('fa-check');
+    $('.ct-true-false > .fas').removeClass('fa-times');
+
+    if (flag == true) {
+        $('.answer_for_question').slideToggle();
+        $(this).find('.stt').toggleClass('toggle_Stt_true');
+        $(this).find('.content').toggleClass('toggle_content_true');
+        $(this).find('.ct-true-false > .fas').toggleClass('fa-check');
+    } else {
+        $('.answer_for_question').slideUp();
+        $(this).find('.stt').toggleClass('toggle_Stt_false');
+        $(this).find('.content').toggleClass('toggle_content_false');
+        $(this).find('.ct-true-false > .fas').toggleClass('fa-times');
+        // $(this).find('.ct-true-false').find('.fas').toggleClass('fa-times');
+    }
+    // debugger;
+});
+let drag_El = document.querySelector('.all-number');
+drag_El.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+    let getY = document.querySelector(".total-answer").offsetTop;
+    // document.querySelector(".total-answer").style.top = getY + 'px';
+    console.log(getY);
+    let _this = this;
+    // debugger;
+    let getTarget = e.target.offsetTop;
+    var touch = e;
+    console.log(getTarget);
+    // debugger;
+    // console.log(touch.pageY);
+}, false);
+//-----------HOME PAGE------------
