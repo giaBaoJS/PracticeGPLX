@@ -39,7 +39,7 @@
             margin-left: 20px;
         }
     }
-    main {
+    main.t-main {
         min-height: 100%;
         .slide-banner {
             height: 180px;
@@ -196,6 +196,7 @@
                         flex-wrap: wrap;
                         text-align: center;
                         line-height: 1.5;
+                        color: #3c49e8;
                         .m-info:nth-child(1)::after {
                             content: '';
                             position: absolute;
@@ -216,11 +217,11 @@
                             position: relative;
                             display: flex;
                             flex-direction: column;
-                            width: 33.33%;
+                            width: 50%;
                             span {
                                 position: relative;
                                 font-size: 14px;
-                                color: #969696;
+                                // color: #969696;
                                 word-break: break-all;
                             }
                         }
@@ -261,7 +262,7 @@
                             margin-bottom: 15px;
                         }
                         .m-info:first-child {
-                            border-right: 1px solid $border_right;
+                            border-right: 2px solid orange;
                         }
                         .m-info:last-child {
                             width: 100%;
